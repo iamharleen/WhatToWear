@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidweatherproject"
+    package="com.example.whattowear"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <permission
-        android:name="com.example.androidweatherproject.permission.MAPS_RECEIVE"
+        android:name="com.example.whattowear.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.androidweatherproject.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.example.whattowear.permission.MAPS_RECEIVE" />
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -32,7 +32,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.whattowear.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,12 +41,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WeatherActivity"
+            android:name="com.example.whattowear.WeatherActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_weather" >
         </activity>
         <activity
-            android:name=".MapActivity"
+            android:name="com.example.whattowear.MapActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_map" >
         </activity>
@@ -59,7 +59,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".ParseActivity"
+            android:name="com.example.whattowear.ParseActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_parse" >
         </activity>
