@@ -40,3 +40,9 @@ Following technologies have been used in order to develop this project
 * Android SDK
 * Google API, Yahoo API and Parse libraries
 
+##Snapshots
+![](https://github.com/iamharleen/WhatToWear-Android-Weather-App/blob/master/assets/images/sanJoseTemp.png)
+![](https://github.com/iamharleen/WhatToWear-Android-Weather-App/blob/master/assets/images/sanJoseDress.png)
+![](https://github.com/iamharleen/WhatToWear-Android-Weather-App/blob/master/assets/images/LondonTemp.png)
+![](https://github.com/iamharleen/WhatToWear-Android-Weather-App/blob/master/assets/images/LondonDress.png)
+
